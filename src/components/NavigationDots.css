@@ -1,0 +1,11 @@
+/* .app-nav-dots{
+float: right;
+} */
+
+.nav-dots{
+border-radius: 50%;
+display:flex;
+flex-direction: column;
+font-size: 4rem;
+color:rgb(107, 105, 105);
+}

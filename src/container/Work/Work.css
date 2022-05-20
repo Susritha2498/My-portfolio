@@ -1,0 +1,154 @@
+.works-section{
+flex:1;
+width:100%;
+height: 100%;
+flex-direction: column;
+padding: 6rem 2rem 0;
+}
+.app-work-filter{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+flex-wrap: wrap;
+margin: 4rem 0 2rem;
+}
+
+.app-work-filter-item{
+padding: 0.5rem 1rem;
+border-radius: 10px;
+background-color: white;
+color: black;
+font-weight: 800;
+cursor: pointer;
+transition: all 0.3s ease;
+margin: 0.5rem;
+}
+.app-work-filter-item:hover{
+background-color: blue;
+color:white;
+}
+
+.item-active{
+background-color: blue;
+color: white;
+}
+
+.app-work-details{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items:center ;
+}
+
+.app-work-item{
+display: flex;
+width:25%;
+min-height: 30vw;
+flex-direction: column;
+margin: 2rem;
+padding:1rem;
+border-radius:10px;
+cursor: pointer;
+color:black;
+transition: all 0.3s ease;
+}
+
+@media screen and (min-width:2000px){
+    .app-work-item{
+        width:25%;;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .app-work-item{
+        width:40%;
+    }
+}
+@media screen and (max-width:600px){
+    .app-work-item{
+        width:60%;;
+    }
+}
+
+
+.app-work-item:hover{
+box-shadow:0 0 25px black ;
+}
+.app-work-image{
+display: flex;
+width:100%;
+position: relative;
+}
+
+.app-work-image img{
+width: 100%;
+/* height:100%; */
+border-radius: 10px;
+object-fit: cover;
+}
+
+.app-work-hover{
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute; 
+top: 0; 
+left: 0;
+bottom: 0;
+right: 0;
+width: 100%;
+height:100%;
+background-color: rgba(0, 0, 0,0.5);
+border-radius: 10px;
+opacity: 0; 
+transition:all 0.3s ease;
+}
+
+.app-work-hover div{
+display: flex;
+justify-content: center;
+align-items: center;
+width:50px;
+height:50px;
+border-radius:50%;
+background-color: rgba(0, 0, 0, 0.5);
+color: white;
+margin:1rem;
+font-weight: 800;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+
+.app-work-hover svg{
+width: 50%;
+height:50%;
+color:white;
+}
+
+.app-work-content{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 5px;
+width:100%;
+position: relative;
+}
+
+.app-work-tag{
+display: flex;
+position: absolute;
+padding:0 10px;
+border-radius: 5px;
+box-shadow:0 0 2px grey;
+background-color: white;
+top: -30px;
+}
+
+.heading4{
+margin: 5vh 0 0 0;
+line-height: 1.5;
+font-size: x-large;
+}
+
