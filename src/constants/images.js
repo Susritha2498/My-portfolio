@@ -30,7 +30,7 @@ import backgroundPink from '../assets/background-pink.jpg'
 import backgroundPinkleaves from '../assets/background-pinkleaves.jpg'
 import backgroundMobile from '../assets/background-mobilemenu.jpg'
 import backgroundImage from '../assets/background-image.png'
-import resume from '../assets/Susritha_resume.docx'
+import resume from '../assets/Susritha_Resume.pdf'
 
 import project1 from '../assets/project1.jpg'
 import project2 from '../assets/project2.jpg'

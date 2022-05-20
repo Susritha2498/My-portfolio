@@ -26,8 +26,8 @@ const works = [
     title:'Personal Portfolio',
     description:'This includes information about my skills and links to my projects',
     imageUrl:images.project3,
-    projectlink:'https://susritha2498.github.io/Dogs-party/',
-    codelink:"https://github.com/Susritha2498/Dogs-party",
+    projectlink:"https://susritha98-portfolio.pages.dev/",
+    codelink:"https://github.com/Susritha2498/susritha-portfolio",
     tags:['UI/UX','Web Application','Mobile Application','HTML CSS','JavaScript','React JS'],
   },
   {
